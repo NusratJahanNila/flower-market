@@ -19,6 +19,8 @@
 .section-title{
     font-weight: bold;
     font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 15px;
 }
 .section-description{
     font-size: 22px;
@@ -31,7 +33,6 @@
     color: #252432;
     font-weight: 700px;
 }
-
 
 
 
@@ -59,17 +60,25 @@
     color: black;
 }
 
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 96px;
+}
 
 
 
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
-    .container{
-        max-width: 460px;
-        margin: auto;
-    }
+   
 
     /* navbar */
+    .navbar{
+        margin: 20px 16px;
+        align-items: center;
+    }
     #home,
     #shop,
     #about-us{
@@ -78,5 +87,27 @@
     #cart{
         display: flex;
         align-items: center;
+        font-size: 24px;
+    }
+
+    /* banner */
+    .banner{
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+    .banner-info{
+        margin: 28px 16px;
+    }
+    .banner-info h2{
+        font-size: 24px;
+        line-height: 30px;
+        
+    }
+    .banner-info p{
+        font-size: 14px;
+    }
+    .banner-img{
+        margin-top: 28px;
+        width: 100%;
     }
 }
