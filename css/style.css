@@ -65,6 +65,7 @@ img{
 .navbar ul a{
     text-decoration: none;
 }
+
 #shop,#about-us{
     color: #8987A1;
 }
@@ -167,52 +168,56 @@ img{
 .card-left-1{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
     background-size: cover;
-}
-.card-left-1,.card-left-2{
     height: 200px;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 14px;
     color: #fff;
-    font-size: 16px;
-    font-weight: bold;
 }
 .card-left-1 a,.card-left-2 a{
     color: #fff;
+    font-size: 16px;
     font-weight: 500px;
-    margin-top: 30px;
 }
 .card-left-2{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
     background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    height: 200px;
+    border-radius: 14px;
+    color: #fff;
 }
-
-.card-left-1,.card-left-2,.card-right{
-    position: relative;
+.card-left-1,.card-left-2, .card-right{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.card-left-1 h4,a ,.card-left-2 h4,a{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.card-left-1 h4,.card-left-2 h4, .card-right h3{
+    margin-top: 40%;
+   
+}
+.card-left-1 a,.card-left-2 a, .card-right a {
+    margin-bottom: 40%;
 }
 .card-right{
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
     height: 420px;
     border-radius: 22px;
-    color: #fff;
-    font-size: 35px;
-    font-weight: bold;
 }
-.card-right h3,a{
+ .card-right h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    
+} 
+.card-right a{
     color: #fff;
     font-size: 28px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-weight: 500px;
 }
-.card-right a{
-    margin-top: 40px;
-}
+    
 
 
 
@@ -262,8 +267,9 @@ img{
     }
     #cart{
         display: flex;
-        align-items: center;
+        align-items: center;  
         font-size: 24px;
+        
     }
 
     /* banner */
@@ -321,6 +327,7 @@ img{
     }
 
     /* Latest deals */
+    
     .latest-deals{
         padding: 0 16px;
 
