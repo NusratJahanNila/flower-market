@@ -136,7 +136,6 @@ img{
     padding: 38px 0;
     width: 50%;
 }
-
 .plant-lover-info ul li{
     margin: 20px auto;
 }
@@ -172,7 +171,9 @@ img{
     .btn-primary{
         padding: 10px 20px;
         margin-top: 15px;
-
+    }
+    .break{
+        display: none;
     }
 
     /* navbar */
@@ -219,6 +220,30 @@ img{
     }
     .plant-card-info h4,p{
         font-size: 16px;
+    }
+
+    /* Plants Lover section */
+    #trusted-badge{
+        display: none;
+    }
+    .plant-lover{
+        margin-top: 40px;
+    }
+    .plant-lover-container{
+        flex-direction: column;
+        gap: 0;
+        padding: 0 17px;
+        
+    }
+    .plant-lover-img{
+    width: 100%;
+    }
+    .plant-lover-info{
+        padding: 18px 0;
+        width: 100%;
+    }
+    .plant-lover-info ul{
+        padding-left: 15px;
     }
 
 }
