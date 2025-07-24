@@ -141,6 +141,80 @@ img{
 }
 
 
+/* latest deals */
+
+.latest-deal-info{
+    text-align: center;
+    margin: 100px auto;
+}
+.latest-deal-info p{
+    padding: 25px 0 15px;
+}
+.deals-card-container{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.deals-card-left{
+    width: 33%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.deals-card-right{
+    width: 67%;
+}
+.card-left-1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+    background-size: cover;
+}
+.card-left-1,.card-left-2{
+    height: 200px;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-left-1 a,.card-left-2 a{
+    color: #fff;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+.card-left-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+    background-size: cover;
+}
+
+.card-left-1,.card-left-2,.card-right{
+    position: relative;
+}
+.card-left-1 h4,a ,.card-left-2 h4,a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-right{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+    height: 420px;
+    border-radius: 22px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+.card-right h3,a{
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-right a{
+    margin-top: 40px;
+}
+
+
 
 
 
@@ -244,6 +318,42 @@ img{
     }
     .plant-lover-info ul{
         padding-left: 15px;
+    }
+
+    /* Latest deals */
+    .latest-deals{
+        padding: 0 16px;
+
+    }
+    .latest-deal-info{
+
+        margin-bottom: 20px;
+    }
+    .deals-card-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .deals-card-left{
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .card-left-1 a,.card-left-2 a, .card-right a{
+        font-weight: 500px;
+        font-size: 14px;
+    }
+    .deals-card-right{
+        width: 100%;
+    }
+    .card-right{
+        height: 200px;   
+    }
+    .card-right h3{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .card-right a{
+        margin-top: 30px;
     }
 
 }
