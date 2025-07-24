@@ -110,6 +110,36 @@ img{
 }
 
 
+/* Plants Lover Section */
+
+.plant-lover{
+    margin-top: 200px;
+    position: relative;
+}
+#trusted-badge{
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    left: 350px;
+    bottom: 450px;
+    
+}
+.plant-lover-container{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.plant-lover-img{
+    width: 50%;
+}
+.plant-lover-info{
+    padding: 38px 0;
+    width: 50%;
+}
+
+.plant-lover-info ul li{
+    margin: 20px auto;
+}
 
 
 
