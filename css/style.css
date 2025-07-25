@@ -463,9 +463,12 @@ img{
     /* footer */
     .footer{
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         padding: 50px 14px 0 20px;
         width: 425px;
+    }
+    .footer-logo{
+        margin-bottom: 10px;
     }
     .footer-logo,.footer-list-item,.media-icon{
         width: 100%;
