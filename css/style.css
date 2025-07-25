@@ -88,6 +88,9 @@ img{
     align-items: end;
     padding-top: 96px;
 }
+.banner-info,.banner-img{
+    width: 50%;
+}
 
 /* Our Plants */
 
@@ -346,7 +349,9 @@ img{
         
     }
     .banner-info{
-        margin: 28px 16px;
+        padding: 28px 16px;
+        width: 100%;
+        min-width: 425px;
     }
     
     .banner-img{
@@ -356,6 +361,10 @@ img{
 
 
     /* Our Plants */
+    
+    .plants{
+        margin-top: 50px;
+    }
     .plants-heading{
         width: 100%;
         margin: 0 auto;
