@@ -220,7 +220,8 @@ img{
 
 /* Join Section */
 .join{
-    margin-top: 120px;
+    margin: 120px auto;
+    width: 100%;
 }
 .join-search-bar{
     background-image: url('../assets/news-letter-bg.png');
@@ -228,6 +229,7 @@ img{
     color: #fff;
     text-align: center;
     padding: 120px 200px;
+    width: 100%;
 }
 .join-search-bar input{
     width: 400px;
@@ -237,7 +239,7 @@ img{
 }
 .join-search-bar .btn-primary{
     width: 120px;
-    padding: 18px 20px ;
+    padding: 18px 20px;
     margin-left: -4px;
 }
 
@@ -385,16 +387,20 @@ img{
         font-weight: bold;
     }
     /* join section */
+    .join{
+        margin: 20px auto;
+        width: 425px;
+    }
     .join-search-bar{
         padding: 50px;
-        width: 100%;
+        width: 100%;     
     }
     .join-search-bar input{
-        width: 200px;
+        width: 150px;
     }
     .join-search-bar .btn-primary{
         width: 100px;
-        padding: 18px 30px;
+        padding: 18px 20px;
         margin-left: -4px;
     }
 
