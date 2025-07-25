@@ -217,8 +217,29 @@ img{
     font-size: 28px;
     font-weight: 500px;
 }
-    
 
+/* Join Section */
+.join{
+    margin-top: 120px;
+}
+.join-search-bar{
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 120px 200px;
+}
+.join-search-bar input{
+    width: 490px;
+    height: 50px;
+    padding: 15px 20px;
+    border: none;
+}
+.join-search-bar .btn-primary{
+    width: 120px;
+    padding: 18px 30px;
+    margin-left: -4px;
+}
 
 
 
@@ -356,11 +377,25 @@ img{
         height: 200px;   
     }
     .card-right h3{
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bold;
     }
     .card-right a{
-        margin-top: 30px;
+        margin-top: 10px;
+        font-weight: bold;
     }
+    /* join section */
+    .join-search-bar{
+        padding: 50px;
+    }
+    .join-search-bar input{
+        width: 200px;
+    }
+    .join-search-bar .btn-primary{
+        width: 100px;
+        padding: 18px 30px;
+        margin-left: -4px;
+    }
+
 
 }
